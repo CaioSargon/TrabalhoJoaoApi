@@ -30,7 +30,7 @@
 
 
 ```http
-  POST/photos
+  POST/tasks
 ```
 
 | Parâmetro   | Tipo       | Descrição                                   |
@@ -42,7 +42,7 @@
 
 
 ```http
-  PUT/photos/{photo}
+  PUT/tasks/{id}
 ```
 
 | Parâmetro   | Tipo       | Descrição                                   |
@@ -53,7 +53,7 @@
 
 
 ```http
-  DELETE/photos/{photo}
+  DELETE/tasks/{id}
 ```
 
 | Parâmetro   | Tipo       | Descrição                                   |
